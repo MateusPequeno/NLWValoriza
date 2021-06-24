@@ -2,7 +2,7 @@ import 'reflect-metadata';
 import express, { Request, Response, NextFunction } from 'express';
 import 'express-async-errors';
 import { router } from './routes';
-
+// yarn typeorm migration:create -n AlterUserAddPassword
 import './database';
 
 const app = express();
